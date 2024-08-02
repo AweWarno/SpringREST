@@ -1,4 +1,4 @@
-package ru.netology.springrest.Config;
+package ru.netology.springrest.config;
 
 public enum Authorities {
     READ, WRITE, DELETE

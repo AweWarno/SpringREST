@@ -1,11 +1,10 @@
-package ru.netology.springrest.Service;
+package ru.netology.springrest.service;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
-import ru.netology.springrest.Advise.InvalidCredentials;
-import ru.netology.springrest.Advise.UnauthorizedUser;
-import ru.netology.springrest.Config.Authorities;
-import ru.netology.springrest.Repository.UserRepository;
+import ru.netology.springrest.advise.InvalidCredentials;
+import ru.netology.springrest.advise.UnauthorizedUser;
+import ru.netology.springrest.config.Authorities;
+import ru.netology.springrest.repository.UserRepository;
 
 import java.util.List;
 

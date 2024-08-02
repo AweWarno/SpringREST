@@ -1,9 +1,8 @@
-package ru.netology.springrest.Repository;
+package ru.netology.springrest.repository;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Repository;
-import ru.netology.springrest.Config.Authorities;
-import ru.netology.springrest.Model.Person;
+import ru.netology.springrest.config.Authorities;
+import ru.netology.springrest.model.Person;
 
 import java.util.*;
 

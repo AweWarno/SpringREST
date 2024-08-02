@@ -1,4 +1,4 @@
-package ru.netology.springrest.Advise;
+package ru.netology.springrest.advise;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

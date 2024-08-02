@@ -1,12 +1,10 @@
-package ru.netology.springrest.Controller;
+package ru.netology.springrest.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.netology.springrest.Config.Authorities;
-import ru.netology.springrest.Service.AuthorizationService;
+import ru.netology.springrest.config.Authorities;
+import ru.netology.springrest.service.AuthorizationService;
 
 import java.util.List;
 

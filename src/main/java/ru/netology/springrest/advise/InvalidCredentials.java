@@ -1,4 +1,4 @@
-package ru.netology.springrest.Advise;
+package ru.netology.springrest.advise;
 
 public class InvalidCredentials extends RuntimeException {
     public InvalidCredentials(String msg) {

@@ -1,4 +1,4 @@
-package ru.netology.springrest.Model;
+package ru.netology.springrest.model;
 
 import lombok.Getter;
 import lombok.Setter;
