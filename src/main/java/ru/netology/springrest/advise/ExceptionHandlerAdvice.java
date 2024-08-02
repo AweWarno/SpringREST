@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class ExceptionHandlerAdvice {
 
-
     @ExceptionHandler(InvalidCredentials.class)
     public ResponseEntity<String> InvalidCredentialsError(InvalidCredentials e) {
         return new ResponseEntity<>(e.toString(), HttpStatus.BAD_REQUEST);
